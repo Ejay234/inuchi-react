@@ -10,6 +10,10 @@ export function Canvas() {
         draw,
     } = useCanvas();
 
+    const canvaStyle = {
+        border: "5px solid #282c34"
+    }
+
     useEffect(() => {
         prepareCanvas();
     }, []);
@@ -20,6 +24,7 @@ export function Canvas() {
             onMouseUp={finishDrawing}
             onMouseMove={draw}
             ref={canvasRef}
+            style={canvaStyle}
         />
     );
 }
