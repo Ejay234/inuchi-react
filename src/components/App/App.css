@@ -48,6 +48,20 @@
   position: static;
 }
 
+.clear_button {
+  margin: 5px;
+  padding: 3px;
+  background-color: #282c34;
+  border: whitesmoke 2px solid;
+  color: whitesmoke;
+}
+
+.clear_button:hover {
+  background-color: whitesmoke;
+  border: #282c34 1px solid;
+  color: #282c34;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

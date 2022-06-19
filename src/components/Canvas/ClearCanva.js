@@ -5,6 +5,6 @@ export const ClearCanva = () => {
     const { clearCanvas } = useCanvas();
 
     return (
-        <button className="clear_button" onClick={clearCanvas}>CLEAR</button>
+        <button className="clear_button" onClick={clearCanvas}>N E W</button>
     )
 }
